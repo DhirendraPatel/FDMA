@@ -1,0 +1,51 @@
+/* Container for the entire account settings section */
+.account-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Add a background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Loading message style */
+.loading-message {
+  color: #007bff; /* Blue color for loading message */
+  font-style: italic; /* Make it italic */
+}
+
+/* Error message style */
+.error-message {
+  color: #dc3545; /* Red color for error message */
+  font-weight: bold; /* Make it bold */
+}
+
+/* Container for user profile information */
+.user-profile-container {
+  margin-top: 20px;
+}
+
+/* Heading style */
+.user-profile-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; /* Dark color for heading */
+}
+
+/* Text style for user information */
+.user-profile-container p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #080808; 
+  
+}
+
+/* Bold label style */
+.user-profile-container label {
+  font-weight: bold;
+}
+
+.user-profile-container span{
+  font-size: 16px;
+}

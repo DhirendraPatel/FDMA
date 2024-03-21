@@ -1,0 +1,84 @@
+/* YourOrders.css */
+
+/* Add styles for the container div */
+.yourorders {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Add styles for the main heading */
+  .mainhead1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Add styles for the table */
+  .yourorderstable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Add styles for table headers */
+  .yourorderstable th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Add styles for table cells */
+  .yourorderstable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Add styles for odd rows to improve readability */
+  .yourorderstable tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Add styles for the delivery status dots */
+  .greendot,
+  .yellowdot,
+  .reddot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .greendot {
+    background-color: #27ae60; /* Green */
+  }
+  
+  .yellowdot {
+    background-color: #f1c40f; /* Yellow */
+  }
+  
+  .reddot {
+    background-color: #e74c3c; /* Red */
+  }
+  
+  /* Add styles for the View button */
+  .mainbutton1 {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #3498db; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .mainbutton1:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

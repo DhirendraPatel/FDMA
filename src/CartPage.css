@@ -1,0 +1,41 @@
+  
+
+  
+  .cart-page {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 30%;
+    max-height: 90%;
+    overflow: auto;
+  }
+  
+  .cart-items {
+    margin-bottom: 10px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-image {
+    width: 30%; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-total {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .cart-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  

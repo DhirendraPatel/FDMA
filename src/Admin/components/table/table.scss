@@ -1,0 +1,31 @@
+.sellingreport-container{
+    border: 1px solid;
+  }
+  
+  .sellingreport-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sellingreport-container th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .sellingreport-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .sellingreport-container td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sellingreport-container tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  
+  
+  

@@ -1,0 +1,17 @@
+  .menu-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .menu-card {
+    margin: 10px;
+  }
+  
+  .menu-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image round */
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,29 @@
+.payment-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-heading-center {
+    text-align: center;
+  }
+  
+  /* Additional styling for the form labels */
+  .form-label {
+    margin-left: 36%; /* Adjust as needed */
+  }
+  
+  /* Additional styling for the QR code section */
+  .qr-code-container {
+    text-align: center;
+  }
+  
+  .qr-code-image {
+    width: 70%;
+    height: 40vh;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  

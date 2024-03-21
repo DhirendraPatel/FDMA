@@ -1,0 +1,29 @@
+/* bookedTables.css */
+
+.table-bordered {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-bordered th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-bordered th:first-child,
+  .table-bordered td:first-child {
+    padding-left: 16px;
+  }
+  
+  .table-bordered th:last-child,
+  .table-bordered td:last-child {
+    padding-right: 16px;
+  }
+  

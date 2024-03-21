@@ -1,0 +1,61 @@
+.feedback-form{
+    background-image: url("https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover; background-repeat: no-repeat; color: rgb(241, 241, 244); 
+}
+
+
+.Feedback-thank{
+    background-image: url("https://images.pexels.com/photos/8533230/pexels-photo-8533230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover; background-repeat: no-repeat; color: rgb(18, 18, 19); height: 55vh; background-position: center;
+}
+
+
+
+
+
+.feedback {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .feedback {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .feedback {
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .feedback {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  

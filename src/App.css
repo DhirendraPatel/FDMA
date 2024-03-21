@@ -1,0 +1,14 @@
+  .app.dark {
+    background-color: #333333; /* Dark mode background color */
+    color: #ffffff; /* Dark mode text color */
+  }
+  
+  
+  .colorOption:nth-child(1) {
+    background-color: #ffffff; /* Light mode color */
+  }
+  
+  .colorOption:nth-child(2) {
+    background-color: #333333; /* Dark mode color */
+  }
+  

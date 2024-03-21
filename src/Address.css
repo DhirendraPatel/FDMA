@@ -1,0 +1,121 @@
+.address-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .address-card {
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .address-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .address-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .address-form .form-control:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .address-form .btn {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #FF6600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .address-form .btn:hover {
+    background-color: #ffca28;
+  }
+  
+  .error-message {
+    margin-bottom: 0;
+    color: red;
+  }
+  .account-container {
+    max-width: 800px;
+    margin: 20px auto; /* Center the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Add styles for the h1 element */
+  h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Add styles for the profile details */
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+  /* Add styles for the input fields */
+  .profile-details input {
+    padding: 10px;
+    width: calc(100% - 20px); /* Adjust input width to fit container */
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Add styles for the buttons */
+  .profile-details button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Style the Save Changes button */
+  .profile-details .save-changes-button {
+    background-color: #4caf50;
+    margin-right: 10px;
+  }
+  
+  /* Style the Edit button */
+  .profile-details .edit-button {
+    background-color : #3498db; 
+  }
+  
+  /* Add styles for responsive layout */
+  @media (max-width: 800px) {
+    .profile-details {
+      align-items: center;
+    }
+  
+    .profile-details input {
+      width: 100%;
+    }
+  }
+  

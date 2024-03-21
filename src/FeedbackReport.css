@@ -1,0 +1,40 @@
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .users-feedback{
+    border: 1px solid;
+  }
+  
+  .users-feedback table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .users-feedback th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .users-feedback tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .users-feedback td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .users-feedback tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  
+  
+  
+  
+  

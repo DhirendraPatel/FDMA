@@ -1,0 +1,69 @@
+.slot-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .slot-button {
+    border: none;
+    border-radius: 20px;
+    background-color: #FF6600;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slot-button:hover {
+    background-color: #E25822;
+  }
+  
+
+  .table-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .table-button {
+    border: none;
+    border-radius: 20px;
+    background-color: #FF6600;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .table-button:hover {
+    background-color: #E25822;
+  }
+
+  .confirm-button{
+    background-color: green; margin-left: 20%;
+  }
+
+  .blocked-slot {
+    background-color: #ccc; /* Change the background color to indicate the slot is blocked */
+    color: #666; /* Optionally, change the text color */
+    cursor: not-allowed; 
+    cursor: not-allowed;
+    opacity: 0.5;/* Optionally, change the cursor to indicate it's not clickable */
+  }
+  
+  /* In BookTable.css */
+
+.selected-slot {
+  background-color: white;
+  color: black;
+  cursor: not-allowed; 
+
+}
+
+
+.slot-button.blocked {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: #ccc; /* Optional: Change background color to visually indicate blocked slots */
+  /* Add any other styles you want for blocked slots */
+}
